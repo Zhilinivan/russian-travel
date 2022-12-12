@@ -18,13 +18,13 @@
 @media screen and (max-width: 1280px) {
   .cover {
     margin: 92px 0 0;
-    width: 100vw;
+    max-width: 100vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     margin: 66px 0 0;
-    width: 100%;
+    max-width: 100vw;
   }
 }
