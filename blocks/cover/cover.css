@@ -1,7 +1,7 @@
 .cover {
   margin: 92px 48px 0;
   padding: 0;
-  max-width: calc(100vw-96px);
+  max-width: calc(100vw - 96px);
   height: 62vw;
   display: flex;
   justify-content: center;
