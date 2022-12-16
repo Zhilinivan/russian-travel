@@ -1,14 +1,32 @@
 .place__website {
-  padding: 0;
+  padding: 0; 
   margin: 0 0 48px;
-  width: 44%;
-  align-self: flex-end;
+  align-self: flex-end; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
+  .place__website {
+    width: calc(49% - 40px);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .place__website {
+    width: calc(49% - 32px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+    width: calc(49% - 28px);
+  }
+}
+
+@media screen and (max-width: 767px) {
   .place__website {
     margin: 0 16px 32px;
-    width: 100%;
+    padding: 0;
+    width: 100vw;
     align-self: flex-start;
   }
 }
