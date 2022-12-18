@@ -2,23 +2,18 @@
   padding: 0;
   margin: 0 0 48px;
   align-self: flex-end;
-}
-
-@media screen and (min-width: 1280px) {
-  .place__website {
-    width: calc(49% - 40px);
-  }
+  width: 484px;
 }
 
 @media screen and (max-width: 1279px) {
   .place__website {
-    width: calc(49% - 32px);
+    width: 456px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__website {
-    width: calc(49% - 28px);
+    width: 342px;
   }
 }
 
@@ -26,7 +21,7 @@
   .place__website {
     margin: 0 16px 32px;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     align-self: flex-start;
   }
 }

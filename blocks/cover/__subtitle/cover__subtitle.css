@@ -7,6 +7,11 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  z-index: 10;
+}
+
+.cover__subtitle:hover ~ .cover__image {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
