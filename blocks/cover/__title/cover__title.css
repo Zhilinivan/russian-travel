@@ -11,7 +11,7 @@
 }
 
 .cover__title:hover ~ .cover__image {
-  opacity: 0.8;
+  opacity: 0.3;
 }
 
 @media screen and (max-width: 767px) {

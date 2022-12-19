@@ -1,4 +1,4 @@
-.lead__image-bg {
+.lead__image {
   padding: 0;
   margin: 64px 0 8px 0;
   width: 100%;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .lead__image-bg {
+  .lead__image {
     margin: 56px 0 8px 0;
     width: 100%;
     height: auto;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .lead__image-bg {
+  .lead__image {
     margin: 56px 0 8px 0;
     width: 100%;
     height: auto;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .lead__image-bg {
+  .lead__image {
     margin: 40px 0 8px 0;
     width: 100%;
     height: auto;
